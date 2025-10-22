@@ -13,7 +13,7 @@ spring:
       client:
         registration:
           google:
-            **client-id: 
+            client-id: 
             client-secret: 
             authorization-grant-type: authorization_code
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
