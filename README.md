@@ -13,8 +13,8 @@ spring:
       client:
         registration:
           google:
-            **client-id: 554872852571-dv96ht7qfhqj6fkk4o773kra1433p7dn.apps.googleusercontent.com 
-            client-secret: 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 **
+            **client-id: 
+            client-secret: 
             authorization-grant-type: authorization_code
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope: 
